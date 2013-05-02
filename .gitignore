@@ -1,3 +1,5 @@
+#emacs files
+*~
 *.py[cod]
 
 # C extensions
