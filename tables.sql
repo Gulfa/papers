@@ -1,12 +1,11 @@
 CREATE TABLE papers(
-       id INTEGER NOT NULL,
+       id INTEGER NOT NULL PRIMARY KEY,
        title TEXT(300),
        authors TEXT(300),
-       spires_id INTERGER,
+       inspires_id INTERGER,
        arxiv_id TEXT(20),
        summary TEXT(1000),
        bibtex TEXT(3000),
-       PRIMARY KEY (id),
        UNIQUE(title)
 );
 CREATE TABLE keywords(
