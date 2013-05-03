@@ -2,7 +2,7 @@ CREATE TABLE papers(
        id INTEGER NOT NULL PRIMARY KEY,
        title TEXT(300),
        authors TEXT(300),
-       inspires_id INTERGER,
+       inspire_id INTERGER,
        arxiv_id TEXT(20),
        summary TEXT(1000),
        bibtex TEXT(3000),
